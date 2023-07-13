@@ -15,6 +15,9 @@
     "backend",
     "frontend"
   ],
+  "engines": {
+    "node": ">=18.16.0"
+  },
   "scripts": {
     "dev": "concurrently --names 'Node,Vite' -c 'green,blue' 'npm run dev -w backend' 'npm run dev -w frontend'",
     "sqlz": "npx -w backend sequelize-cli",
