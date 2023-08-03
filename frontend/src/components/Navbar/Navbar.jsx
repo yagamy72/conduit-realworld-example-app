@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="navbar navbar-light">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          App do Yagamy
+          App DcTeam7
         </Link>
 
         <SourceCodeLink left />

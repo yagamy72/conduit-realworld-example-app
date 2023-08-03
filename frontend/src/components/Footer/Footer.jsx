@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="container">
       <Link to="/" className="logo-font">
-        App do Yagamy
+        App DcTeam7
       </Link>
       <span className="attribution">
         An interactive learning project from{" "}
